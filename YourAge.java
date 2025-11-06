@@ -7,7 +7,7 @@ public class YourAge {
         System.out.println("type in your age");
         Scanner input = new Scanner(System.in);
         int age = input.nextInt();
-        System.out.printf("you are %d years old", age);
+        System.out.printf("you are %d years old\n", age);
         input.close();
     }
 
